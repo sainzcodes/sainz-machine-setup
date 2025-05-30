@@ -170,6 +170,9 @@ export PATH="/opt/homebrew/bin:$PATH"
 export PATH="/opt/homebrew/lib/node_modules/.bin:$PATH"
 export PATH="$HOME/.local/bin:$PATH"
 
+# Claude Code - Default to Sonnet
+export CLAUDE_MODEL="claude-3-5-sonnet-20241022"
+
 # Environment variables for development
 export EDITOR="code"
 export BROWSER="open"
